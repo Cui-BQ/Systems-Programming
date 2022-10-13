@@ -1,0 +1,9 @@
+Overall Grade: 2/3
+
+
+Feedback:
+word-pair-frequency.cc | [significant] | Read in pairs of words rather than a
+  single word. This means that you end up missing pairs of words. For example,
+  with the sentence "the cat jumped high", the pairs in this program are
+  (the, cat), (cat, jumped), (jumped, high). Your program will consider only the
+  pairs (the, cat) and (jumped, high).

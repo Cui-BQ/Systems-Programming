@@ -1,0 +1,29 @@
+HW2 Feedback
+
+
+Test Suite: 305/305
+
+
+Valgrind: 0/5
+(-5) Substantial valgrind errors (above 48 bytes and 2 contexts).
+
+Modularity: 4/5
+(-1) Re-implemented the functionality of DocTable_GetDocID instead of calling it in DocTable_Add. DocTable.c:68
+
+Blending with starter code: 5/5
+
+
+Robustness and error checking: 4/5
+(-1) Doesn't check EAGAIN or EINTR properly to continue reading. FileParser.c:111
+
+Comments and other style issues: 4/5
+(-1) Compiler warning.
+
+Search shell: 2/5
+[Min scored capped at 2/5 if queries work correctly]
+(-3) At least 1 input causes segfault or Verify333 to fail
+(-2) Incorrect documents or document ranking listed
+(-1) searchshell does not exit gracefully upon EOF or Ctrl+D.
+(-0) fgets should be called in a loop just like you would call read. Since there is no guarentee for the length of the query, you can just realloc to create more space in your buffer.
+
+Bonus: 0/5

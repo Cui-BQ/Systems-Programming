@@ -1,0 +1,7 @@
+Overall Grade: 2/3
+
+
+Feedback:
+vector3d.c | [Minor] | Student name missing from the top of the file
+vector3d.c:12 | [Minor] | Not checking if malloc fails
+vector3d.c | [Significant] | Did not check to see if the vector is NULL anywhere in the getters/setters.

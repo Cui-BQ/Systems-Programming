@@ -1,0 +1,6 @@
+Overall Grade: 3/3
+
+
+Feedback:
+[Minor] Use macro like "INITIAL_WORD_SIZE 2" instead of magic numbers
+[Minor] Vagrind error

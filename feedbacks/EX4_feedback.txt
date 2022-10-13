@@ -1,0 +1,9 @@
+Overall Grade: 2/3
+
+
+Feedback:
+my_memmove.c | [Significant] | Wrong implementation of memmove. | If dest's address is greater than src's address and both memory chunks are overlapping, your memmove will produce wrong result.
+my_memmove.c | [Significant] | Lacking 1 or 2 README file components. | No timing result in README.
+my_memmove.c | [Significant] | No comments.
+
+Please have at least 1 comment describing what your code does. Even better if all functions have some comment on what the functions do.

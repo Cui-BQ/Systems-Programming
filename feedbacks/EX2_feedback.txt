@@ -1,0 +1,7 @@
+Overall Grade: 3/3
+
+
+Feedback:
+
+Code Quality Feedback:
+[Minor] Uses return 0 instead of using EXIT_SUCCESS

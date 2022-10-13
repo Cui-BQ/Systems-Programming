@@ -1,0 +1,25 @@
+HW3 Feedback
+
+
+Test Suite: 290/290
+
+
+Valgrind: 5/5
+
+
+Modularity: 5/5
+
+
+Robustness and error checking: 5/5
+
+
+Comments, Blending, and other style issues: 4/5
+(-1) Casting things to void ** instead of the appropriate type. WriteIndex.cc:480
+
+Search shell: 5/5
+
+
+ 
+
+
+Extra Credit: 0/5
